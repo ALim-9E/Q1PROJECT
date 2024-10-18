@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+	* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(https://media.istockphoto.com/id/177336896/photo/cookies.jpg?s=612x612&w=0&k=20&c=h7YofxM8EzGy-QZp2Vk-EMkzMDsgEEpP5bYiFm92gfk=);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.3);
+	background-blend-mode: overlay;
+	background-size: cover;
+	background-attachment: scroll;
+	margin: 0;
+	
+}
+
+.navbar {
+	background-color: lightpink;
+	overflow: hidden;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.navbar ul {
+	text-align: center;
+	font-family: Tahoma;
+}
+
+.navbar li {
+	display: inline-block;
+	padding: 14px 16px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 250px;
+	color: black;
+	font-size: 70px;
+	font-family: Georgia;
+	font-weight: normal;
+}
+
+#about {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	width: 100%;
+	font-family: Tahoma;
+	font-size: 90%;
+	font-weight: bold;
+	background-color: ghostwhite;
+}
+
+#about h2 {
+	color: black;
+	padding: 14px 16px;
+	
+}
+
+
+#about p {
+	color: black;
+	height: 100%;
+	line-height: 1.2;
+	padding: 8px;
+}
+
+#bestsellers h3 {
+	font-family: Tahoma;
+	color: ghostwhite;
+	text-align: center;
+	font-size: 20px;
+	padding: 8px;
+}
+
+#bestsellers {
+	background-color: #481F01;
+}
+
+
+figcaption {
+	color: ghostwhite;
+	font-family: Tahoma;
+	font-size: 19px;
+
+}
+
+
+
+.container {
+	position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		background-color: lightpink;
+		background-attachment: scroll;
+		color: black;
+		font-family: Tahoma;
+}
+
+.text-box {
+		background-color: #65350F;
+		padding: 5px;
+		color: ghostwhite;
+		list-style-type: none;
+
+	}
+
+.items:hover {
+	transform:scale(1.07);
+	z-index: 2;
+	transition: 3.0 secs;
+	background-color: #5E2C04;
+}
+
+.picture:hover {
+	transform:scale(1.07);
+	z-index: 2;
+	transition: 3.0 secs;
+	background-color: #5E2C04;
+}
+
+
+.picture {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	transition: 0.3s;
+	text-align: center;
+}
+
+
+.products {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+.items {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	border: none;
+	transition: 0.3s;
+	text-align: center;
+}
+
+.products {display: flex}
+.items {flex: 33.33%;
+	padding: 5px;}
+
+.price {
+	color: ghostwhite;
+}
+
+
+section .formBx {
+	position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: whitesmoke;
+		padding: 40px;
+}
+
+
+section .formBx input {
+	border: none;
+	outline: none;
+	box-shadow: none;
+	background-color: lightgoldenrodyellow;
+	cursor: pointer;
+}
+
+section .formBx h2 {
+	font-family: Tahoma;
+}
+
+.frame {
+	display: block;
+		background-color: #FFD1DC;
+		padding: 8px;
+		margin: 4%;
+		color: black;
+		border-radius: 7px;
+		line-height: 1.2;
+}
+
+.text-box a{
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	background-color: lightpink;
+	color: black;
+	padding: 20px;
+}
+
+</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sweets From Miss Bridget</title>
+</head>
+<body>
+
+	<div class="navbar">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#bestsellers">Bestsellers</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#login">Login</a></li>
+		</ul>
+	</div>
+
+	<div class="header">
+		<h1><span style="background-color: lightpink;">Sweets from Miss Bridget<span></h1>
+	</div>
+
+	<div id="about">
+
+		<h2>About Us</h2>
+
+		<p>Sweets from Miss Bridget is a small family owned business. Our products have been handmade the old-fashioned way since 2021. We use the finest ingredients: Real sugar, butter, eggs, milk and chocolate chips. We put immeasurable care into everything we do and are truly committed to baking and delivering the best quality products. "The best things in life are sweet."</p>
+
+	</div>
+
+	<div id="bestsellers">
+		<h3>Bestsellers</h3>
+
+<!-- 1ST ROW -->
+		<div class="products">
+
+
+			<div class="picture">
+				<a href="https://sugarspunrun.com/wp-content/uploads/2016/10/REESES-STUFFED-COOKIES-2-of-4.jpg" alt="reese's stuffed cookies"><img src="https://sugarspunrun.com/wp-content/uploads/2016/10/REESES-STUFFED-COOKIES-2-of-4.jpg" alt="reese's stuffed cookies" width="60%;"></a>
+				<p class="price">₱ 100</p><figcaption>Reese's Stuffed Cookies</figcaption>
+			</div>
+
+			<div class="picture">
+				<a href="https://www.crazyforcrust.com/wp-content/uploads/2018/06/Reeses-Pieces-Cookies-1.jpg"><img src="https://www.crazyforcrust.com/wp-content/uploads/2018/06/Reeses-Pieces-Cookies-1.jpg" alt="reese's cookies" width="60%;"></a><p class="price">₱ 100</p><figcaption>Reese's Cookies</figcaption>
+			</div>
+
+			<div class="picture">
+				<a href="https://togetherasfamily.com/wp-content/uploads/2016/08/chocolate-reeses-cookies-3.jpg" alt="macademia cookies"><img src="https://togetherasfamily.com/wp-content/uploads/2016/08/chocolate-reeses-cookies-3.jpg" alt="macademia cookies" width="68%;"></a><p class="price">₱ 100</p><figcaption>Macademia Cookies</figcaption>
+			</div>
+		
+
+		</div>
+
+	
+
+<!-- 2ND ROW -->
+
+<div class="products" style="padding-top: 20px;">
+
+ 			<div class="items">
+				<a href="https://thebakermama.com/wp-content/uploads/2014/06/MM-Chocolate-Chip-Pudding-Cookies-1024x1536.jpeg"><img src="https://thebakermama.com/wp-content/uploads/2014/06/MM-Chocolate-Chip-Pudding-Cookies-1024x1536.jpeg" alt="m&m's cookies" width="50%;"></a><p class="price">₱ 150</p><figcaption>M&M's Cookies</figcaption>
+			</div>
+
+			<div class="items">
+				<a href="https://atsloanestable.com/wp-content/uploads/2024/01/nutella-cookies2.jpg"><img src="https://atsloanestable.com/wp-content/uploads/2024/01/nutella-cookies2.jpg" alt="nutella cookies" width="50%;"></a><p class="price">₱ 150</p><figcaption>Nutella Cookies</figcaption>
+			</div>
+
+			<div class="items">
+				<a href="https://www.twopeasandtheirpod.com/chewy-oatmeal-raisin-cookie-recipe/"><img src="https://www.twopeasandtheirpod.com/wp-content/uploads/2017/11/Oatmeal-Raisin-Cookies-2.jpg" alt="raisin cookies" width="50%;"></a><p class="price">₱ 150</p><figcaption>Raisin Cookies</figcaption>
+			</div>
+
+
+<!-- 3RD ROW -->
+
+		<div class="items">
+			<a href="https://thefirstmess.com/wp-content/uploads/2020/01/15-11928-post/vegan-nutty-breakfast-cookies-recipe-4-740x972.jpg"><img src="https://thefirstmess.com/wp-content/uploads/2020/01/15-11928-post/vegan-nutty-breakfast-cookies-recipe-4-740x972.jpg" alt="vegan cookies" width="55%;"></a><p class="price">₱ 150</p><figcaption>Vegan Cookies</figcaption>
+		</div>
+
+		<div class="items">
+			<a href="https://lovingitvegan.com/wp-content/uploads/2019/03/Vegan-Gluten-Free-Chocolate-Chip-Cookies-15.jpg"><img src="https://lovingitvegan.com/wp-content/uploads/2019/03/Vegan-Gluten-Free-Chocolate-Chip-Cookies-15.jpg" alt="gluten cookies" width="50%;"></a><p class="price">₱ 150</p><figcaption>Gluten Free Cookies</figcaption>
+		</div>
+
+		<div class="items">
+			<a href="https://foodtasia.com/wp-content/uploads/2020/12/lemon-cookies-3b-683x1024.jpg"><img src="https://foodtasia.com/wp-content/uploads/2020/12/lemon-cookies-3b-683x1024.jpg" alt="lemon white cookies" width="50%;"></a><p class="price">₱ 150</p><figcaption>Lemon White Cookies</figcaption>
+		</div>
+
+	</div>
+
+</div>
+
+
+<section>
+	<div id="contact">
+
+		<div class="container">
+
+			<form>
+
+				<h2>Contact Us</h2>
+
+				<br>
+
+				<label for="name">Name:</label>
+				<input type="Text" id="name" name="name" placeholder="Enter your Name here">
+
+				<br><br>
+
+				<label for="email">Email:</label>
+				<input type="Text" id="email" placeholder="Enter your Email here">
+
+				<br><br>
+
+					<legend>Message:</legend>
+					
+					<textarea rows="8" cols="50" name="message" id="message" style="font-family: Arial, sans-serif"></textarea>
+
+
+				<br><br>
+
+				<input type="submit" name="SUBMIT">
+
+
+
+			</form>
+
+
+		</div>
+	</div>
+
+<div class="text-box">
+	<ol>
+			<li>Shop Now</li>
+			<br>
+			<li><a href="https://www.facebook.com/">Facebook</a></li>
+			<br>
+			<li><a href="https://www.instagram.com/">Instagram</a></li>
+			<br>
+			<li><a href="https://x.com/">X (formerly Twitter)</a></li>
+	</ol>
+</div>
+
+<div id="login">
+
+	<div class="formBx">
+
+		<div class="frame">
+
+			<form>
+
+				<h2>LOGIN</h2>
+					<input type="text" name="" placeholder="Username"> 
+					<input type="password" name="" placeholder="Password"> 
+
+					<br><br>
+
+					<center><a href="#"><input type="submit" value="LOGIN" id="submit"></a></center>
+			</form>
+
+	</div>
+
+	
+</div>
+
+</div>
+
+</section>
+
+<footer>
+	<center><p>Copyright @ 2024</p></center>
+	<br><br>
+	<center><p>Angela S. Lim | 9E</p></center>
+</footer>
+	
+
+</body>
+</html>
